@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:id="@+id/game_rl"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card"
+        android:src="@drawable/card"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card2"
+        android:src="@drawable/card2"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card3"
+        android:src="@drawable/card3"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card4"
+        android:src="@drawable/card4"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="190dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card5"
+        android:src="@drawable/card5"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="250dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card6"
+        android:src="@drawable/card6"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card7"
+        android:src="@drawable/card7"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="70dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card8"
+        android:src="@drawable/card8"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="130dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card9"
+        android:src="@drawable/card9"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="190dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card10"
+        android:src="@drawable/card10"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card12"
+        android:src="@drawable/card12"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="310dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/card11"
+        android:src="@drawable/card11"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="310dp"/>
+
+
+
+
+</RelativeLayout>

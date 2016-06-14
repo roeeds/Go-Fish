@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/pause"
+    android:text="Pause"
+    android:textSize="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/volumeswitch"
+        android:text="Sound:"
+        android:textSize="40dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_below="@+id/pause"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Musicswitch"
+        android:text="Music:"
+        android:textSize="40dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/volumeswitch"
+        android:layout_alignLeft="@+id/volumeswitch"
+        android:layout_alignStart="@+id/volumeswitch" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:layout_alignBottom="@+id/volumeswitch"
+        android:layout_alignLeft="@+id/toggleButton2"
+        android:layout_alignStart="@+id/toggleButton2" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton2"
+        android:layout_alignTop="@+id/Musicswitch"
+        android:layout_toRightOf="@+id/volumeswitch"
+        android:layout_toEndOf="@+id/volumeswitch" />
+
+</RelativeLayout>
