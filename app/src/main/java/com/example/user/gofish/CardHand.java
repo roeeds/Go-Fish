@@ -43,7 +43,6 @@ public class CardHand {
         if (!HasCards()){
             DeckToHand();
             turn++;
-
         } else {
             for (int i = 0; i < 12; i++) {
                 if (aicheck[i] && hand[i] > 0) {
